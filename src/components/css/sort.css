@@ -1,0 +1,48 @@
+.sort-array-container {
+  align-items: center;
+  display: flex;
+  margin-top: auto;
+}
+
+.array-bar {
+  background-color: red;
+  border-radius: 0.5em;
+  margin: 0.15%;
+}
+
+.buttons-bar {
+  display: flex;
+  overflow-x: auto;
+  background-color: #333;
+  margin-top: auto;
+}
+
+.btn {
+  border-radius: 0.4em;
+  border-width: 0.05em;
+  color: white;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  background-color: transparent;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  color: #333;
+  background-color: #eaeaea;
+}
+
+.sort-visualizer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (min-width: 700px) {
+  .buttons-bar {
+    justify-content: center;
+  }
+}
