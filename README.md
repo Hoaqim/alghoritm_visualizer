@@ -6,3 +6,4 @@ React, jquery, react-router-dom
 
 ## How to start your adventure with this app?
 Just write npm run start in the console.
+permalink: /index.html
